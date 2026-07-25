@@ -1,7 +1,24 @@
 aid: crew32
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crew32.png
 name: Crew32
-description: Crew32 is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Crew32 was a stealth-stage technology startup based in Santa Monica, California, working
+  in the human resources, employment, and workplace-culture space. It was founded by Jason Nazar (previously
+  co-founder and CEO of Docstoc), George Ishii (co-founder of Betterworks, Geni, and Yammer), and Yadid
+  Ramot, and raised roughly $5.8 million in early funding around 2016. The company is publicly associated
+  with the comparably.com workplace-culture and compensation review platform. Crew32 was surfaced as a
+  portfolio company of 500 Global and added to the API Evangelist network as a company lead; no public
+  API, developer portal, or SDK has been identified for this company.
 url: https://raw.githubusercontent.com/api-evangelist/crew32/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Human Resources
+- Employment
+- Workplace Culture
+- Compensation
+- Startups
+- Santa Monica
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/crew32-domain-security.yml
 - type: Website
   url: https://comparably.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
