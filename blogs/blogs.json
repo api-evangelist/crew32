@@ -1,0 +1,14 @@
+{
+  "repo": "crew32",
+  "feeds": [
+    {
+      "source": "https://www.comparably.com:443/feed.xml",
+      "feed_url": "https://www.comparably.com:443/feed.xml",
+      "title": "",
+      "saved": 1,
+      "method": "feed"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-10-10T13:15:00Z"
+}
